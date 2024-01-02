@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Change the color here to fit your blood donation theme -->
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="#FFECEFF1" /> <!-- Lighter background color -->
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <solid android:color="#FFB71C1C" /> <!-- Red color for progress -->
+            </shape>
+        </clip>
+    </item>
+</layer-list>
